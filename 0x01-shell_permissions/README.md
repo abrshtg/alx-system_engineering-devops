@@ -11,3 +11,4 @@ Script | Task | Command used |                    ----------------------------- 
 9-John_Doe|sets the mode of the file hello to 753|chmod 753 hello
 10-mirror_permissions|copy permissions form olleh to hello|chmod --reference=olleh hello
 11-directories_permissions|adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.|chmod -R a+x ./*/
+12-directory_permissions|creates a dirctory with a 751 permission|mkdir -m 751 dir_holberton
