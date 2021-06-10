@@ -2,3 +2,4 @@
 Script | Task | Command used |                    ----------------------------- | -----------| ---------------|                                       0-iam_betty|this changes the user id to betty by making the current user betty| su betty
 1-who_am_i|prints the effective user id as a name|whoami
 2-groups|prints all group Ids not only the effective one| groups
+3-new_owner|change ownership of file hello to betty| chown betty hello
