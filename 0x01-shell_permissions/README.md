@@ -13,3 +13,5 @@ Script | Task | Command used |                    ----------------------------- 
 11-directories_permissions|adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.|chmod -R a+x ./*/
 12-directory_permissions|creates a dirctory with a 751 permission|mkdir -m 751 dir_holberton
 13-change_group|change the group of the hello file|chgrp holberton hello
+15-symbolic_link_permissions|changes the owner and the group owner of the file _hello to betty and holberton respectively.|chown -h betty:holberton _hello
+
