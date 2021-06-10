@@ -10,3 +10,4 @@ Script | Task | Command used |                    ----------------------------- 
 8-James_Bond|set the owner and group permission to none and all permission|chomd 007 hello
 9-John_Doe|sets the mode of the file hello to 753|chmod 753 hello
 10-mirror_permissions|copy permissions form olleh to hello|chmod --reference=olleh hello
+11-directories_permissions|adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.|chmod -R a+x ./*/
