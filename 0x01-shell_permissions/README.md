@@ -9,3 +9,4 @@ Script | Task | Command used |                    ----------------------------- 
 7-everybody|adds execution permission to the owner, the group owner and the other users, to the file hello|chmod ugo+x hello
 8-James_Bond|set the owner and group permission to none and all permission|chomd 007 hello
 9-John_Doe|sets the mode of the file hello to 753|chmod 753 hello
+10-mirror_permissions|copy permissions form olleh to hello|chmod --reference=olleh hello
