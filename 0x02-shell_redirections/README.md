@@ -10,3 +10,4 @@ head iacta --lines=3|tail --lines=1|displays the third line of the file iacta|
 echo "Holberton School" > \\\*\\\\\'\"Holberton\ School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)|creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line|
 ls -la > ls_cwd_content|script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.|
 tail iacta --lines=1 >> iacta|script that duplicates the last line of the file iacta|
+find . -name "*.js" -type f -delete|deletes all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders|
