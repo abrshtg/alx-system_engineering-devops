@@ -8,3 +8,4 @@ printenv|script that lists environment variables|
 set|script that lists all local variables and environment variables, and functions|
 BETTY=Holberton|script that creates a new local variable.Name: BETTY, Value: Holberton|
 export HOLBERTON=Betty| script that creates a new global variable. Name: HOLBERTON, Value: Betty|
+echo $(($TRUEKNOWLEDGE+128))|script that prints the result of the addition of 128 with the value stored in the environment variable TRUEKNOWLEDGE, followed by a new line|
