@@ -23,7 +23,7 @@ cat /etc/ssh/sshd_config|grep ^[[:upper:][:lower:]]|Display all lines of the fil
 tr Ac Ze|Replace all characters A and c from input to Z and e respectively|
 tr -d cC|script that removes all letters c and C from input.|
 rev|script that reverse its input.|
-
+cut -d: -f 1,6 /etc/passwd \| sort -d|script that displays all users and their home directories, sorted by users.|
 
 
 
