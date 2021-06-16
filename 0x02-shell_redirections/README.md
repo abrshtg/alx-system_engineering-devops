@@ -15,7 +15,8 @@ find -mindepth 1 -type d \| wc -l|script that counts the number of directories a
 ls -t|head -n 10|displays the 10 newest files in the current directory|
 sort|uniq -u|script that takes a list of words as input and prints only words that appear exactly once,Input format: One line, one word, Output format: One line, one word,Words should be sorted
 |
-cat /etc/passwd\|grep root|Display lines containing the pattern “root” from the file /etc/passwd|
+cat /etc/passwd\|grep root|Display lines containing the pattern “root” from the file /etc/passwd\|
+cat /etc/passwd\|grep bin\| wc -l|Display the number of lines that contain the pattern “bin” in the file|
 
 
 
