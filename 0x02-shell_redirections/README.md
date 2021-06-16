@@ -8,3 +8,4 @@ tail -n 10 /etc/passwd|Display the last 10 lines of /etc/passwd|
 head -n 10 /etc/passwd|Display the first 10 lines of /etc/passwd|
 head iacta --lines=3|tail --lines=1|displays the third line of the file iacta|
 echo "Holberton School" > \\\*\\\\\'\"Holberton\ School\"\\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*:\)|creates a file named exactly \*\\'"Holberton School"\'\\*$\?\*\*\*\*\*:) containing the text Holberton School ending by a new line|
+ls -la > ls_cwd_content|script that writes into the file ls_cwd_content the result of the command ls -la. If the file ls_cwd_content already exists, it should be overwritten. If the file ls_cwd_content does not exist, create it.|
