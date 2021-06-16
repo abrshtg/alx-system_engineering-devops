@@ -32,8 +32,7 @@ find -empty\|rev\|cut -d'/' -f 1\|rev|command that finds all empty files and dir
     The files should be sorted by byte values, but case-insensitive (file aaa should be listed before file bbb, file .b should be listed before file a, and file Rona should be listed after file jay)
     One file name per line
     The listing should end with a new line|
-cut -c 1\|paste -s -d ''|script that decodes acrostics that use the first letter of each line. The ‘decoded’ message has to end with a new line|
-
+cut -c 1\|paste -s -d ''|script that decodes acrostics that use the first letter of each line. The ‘decoded’ message has to end with a new line|tail -n +2 \| cut -f1 \| sort \| uniq -c \| sort -gr \| rev \| cut -f1 -d ' ' \| rev | head -11|script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests. Order by number of requests, most active host or IP at the top|
 
 
 
