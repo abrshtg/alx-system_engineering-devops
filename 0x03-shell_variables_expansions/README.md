@@ -7,3 +7,4 @@ echo $PATH|cut --output-delimiter=$'\n' -d":" -f 1-\|wc -l|script that counts th
 printenv|script that lists environment variables|
 set|script that lists all local variables and environment variables, and functions|
 BETTY=Holberton|script that creates a new local variable.Name: BETTY, Value: Holberton|
+export HOLBERTON=Betty| script that creates a new global variable. Name: HOLBERTON, Value: Betty|
