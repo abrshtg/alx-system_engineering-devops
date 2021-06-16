@@ -17,6 +17,7 @@ sort|uniq -u|script that takes a list of words as input and prints only words th
 |
 cat /etc/passwd\|grep root|Display lines containing the pattern “root” from the file /etc/passwd\|
 cat /etc/passwd\|grep bin\| wc -l|Display the number of lines that contain the pattern “bin” in the file|
+cat /etc/passwd\|grep root -A 3|Display lines containing the pattern “root” and 3 lines after them in the file /etc/passwd|
 
 
 
